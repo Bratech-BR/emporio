@@ -63,7 +63,7 @@ export default new Router({
     { path: '/home-slide', name: 'homepage-slide', component: () => import('@/views/site/HomePageSlide') },
     {
       path: '/',
-      redirect: '/produtos',
+      redirect: '/home',
       component: SiteLayout,
       children: [
         { path: '/login', name: 'site.login', component: () => import('@/views/site/Login') },
